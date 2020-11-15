@@ -1,0 +1,20 @@
+<testExecutions version="1">
+<file path="frontend/__test__/test.spec.js">
+<testCase name="Test test" duration="1" />
+<testCase name="Test test failure" duration="2">
+<failure message="Error"><![CDATA[Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: false
+Received: true
+    at Object.&lt;anonymous&gt; (/Users/yannickhoubrix/dev/github/sonar-scanner/backend/frontend/__test__/test.spec.js:7:22)
+    at Object.asyncJestTest (/Users/yannickhoubrix/dev/github/sonar-scanner/backend/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:100:37)
+    at /Users/yannickhoubrix/dev/github/sonar-scanner/backend/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/yannickhoubrix/dev/github/sonar-scanner/backend/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/yannickhoubrix/dev/github/sonar-scanner/backend/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)]]></failure>
+</testCase>
+</file>
+<file path="frontend/__test__/file.spec.js">
+</file>
+</testExecutions>
